@@ -13,16 +13,10 @@ import javafx.scene.shape.Polygon;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+
 import java.awt.*;
 
 public class Main extends Application{
-    Color appBack = Color.rgb(255,128,64);
-    Color bodyAndHead = Color.rgb(66, 135, 245);
-    Color bellyAndEyes = Color.rgb(255, 255, 255);
-    Color wings = Color.rgb(7, 0, 224);
-    Color feetAndBeak = Color.rgb(255, 221, 0);
-    Color pupils = Color.rgb(0, 0, 0);
-
     int width = 700;
     int height = 700;
     int cx = width / 2;
@@ -120,16 +114,16 @@ public class Main extends Application{
 
 
         Ellipse leftEye = new Ellipse(cx + 10, cy + 15, 8, 12);
-        leftEye.setFill(bellyAndEyes);
+        leftEye.setFill(Color.WHITE);
         leftEye.setStroke(Color.BLACK);
         leftEye.setStrokeWidth(2);
         Ellipse rightEye = new Ellipse(cx - 10, cy + 15, 8, 12);
-        rightEye.setFill(bellyAndEyes);
+        rightEye.setFill(Color.WHITE);
         rightEye.setStroke(Color.BLACK);
         rightEye.setStrokeWidth(2);
 
-        Circle leftPupil = new Circle(cx + 13, cy + 17, 4, pupils);
-        Circle rightPupil = new Circle(cx - 7, cy + 17, 4, pupils);
+        Circle leftPupil = new Circle(cx + 13, cy + 17, 4, Color.BLACK);
+        Circle rightPupil = new Circle(cx - 7, cy + 17, 4, Color.BLACK);
 
         Arc mouth = new Arc();
         mouth.setCenterX(cx);
