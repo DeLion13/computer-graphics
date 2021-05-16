@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="gluegen-rt">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../_LOCAL_COPIES/graphic/lab4/libs/gluegen-rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../_LOCAL_COPIES/graphic/lab4/libs/j3dcore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../_LOCAL_COPIES/graphic/lab4/libs/j3dutils.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../_LOCAL_COPIES/graphic/lab4/libs/jogl-all.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../_LOCAL_COPIES/graphic/lab4/libs/vecmath.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
